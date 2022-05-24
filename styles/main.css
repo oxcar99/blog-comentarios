@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid salmon */
+}
+
+body{
+    background-color: #f5f6f9;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conteiner{
+    margin: 2em auto;
+    width: 1000px;
+}
+
+span{
+    color: #5358b2;
+    font-weight: 950;    
+}
+
+.item1{
+    display: flex;
+    margin: 1em;
+    padding: 1.5em;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 1px 1px 1px gainsboro;    
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(223, 19%, 93%);
+    width: 3em;
+    margin-right: 1em;
+    padding: 0.5em;
+    border-radius: 8px;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.cabecera picture{
+    display:flex; 
+    align-items: center;
+    gap: 1em;         
+}
+
+.cabecera picture img{
+    width: 40px;
+}
+
+.parrafo{
+    font-size: 15px;
+    line-height: 25px;
+    color: lightslategray;
+}
+.conteiner2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+}
+
+.iconos{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.delete span{
+    color: #ED6368;
+}
+
+.container3 {
+    padding-left: 2em;
+    margin-left: 2 em;
+    border-left: 1px solid lightgrey;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+textarea{
+    width: 630px;
+    height: 80px;
+    border: 1px solid lightgray;
+}
+
+.section3 img{
+    width: 40px;
+}
+
+.section3 button{
+    background-color: #5358b2;
+    color: white;
+    padding: 1em 1.5em;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+}
